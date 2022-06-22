@@ -5,6 +5,11 @@ If you would like to promote your paper by webpages like [this](phillipi.github.
 
 Based on the format from [pix2pix](phillipi.github.io/pix2pix/), paper-page used a python file to convert the attributes from the [configuration file](./config.py) to an [HTML file](./docs/index.html). And this html file can be added directly to your github resporitories alongside with all your codes, and can be compiled into a webpage related to your paper!
 
+Dependencies:
+```
+pip install pandas bs4 easydict
+```
+
 ## Step 1. Create a HTML file
 1. Clone this resporitory in your pc by
 ```
@@ -41,6 +46,11 @@ Then, you will find your HTML file in the docs folder, as well as all your image
 ![image](https://user-images.githubusercontent.com/30890745/175133179-29738f8a-6db6-48c5-8d9f-9e0ebcb4c642.png)
 
 
+## Features to be implemented
 
+Excel formatting
 
+## Why should I use paper-page not Markdown?
+
+[HTML vs Markdown](https://developers.google.com/style/markdown)
 
