@@ -42,7 +42,7 @@ Then, you will find your HTML file in the docs folder and all your images attach
 3. Select the docs folder as the folder for your page contents.
 ![image](https://user-images.githubusercontent.com/30890745/175132837-820600b7-0f4b-49ec-8d46-cabfd0b70891.png)
 
-4. Wait 10-15min, then you can access your GitHub page by https://[your name].github.io/your git name/
+4. Wait 10-15min, then you can access your GitHub page by https://[your_name].github.io/[git_name]/
 ![image](https://user-images.githubusercontent.com/30890745/175133179-29738f8a-6db6-48c5-8d9f-9e0ebcb4c642.png)
 
 
