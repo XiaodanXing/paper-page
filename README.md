@@ -1,22 +1,22 @@
 # paper-page
-A simple tool to create a new github page for your papers
+A simple tool to create a new GitHub page for your papers
 
-If you would like to promote your paper by webpages like [this](https://phillipi.github.io/pix2pix/), and you don't know nothing about HTML formatting, then this resporitory is right for you!
+If you would like to promote your paper by webpages like [this](https://phillipi.github.io/pix2pix/), and you don't know anything about HTML formatting, then this repository is right for you!
 
-Based on the format from [pix2pix](phillipi.github.io/pix2pix/), paper-page used a python file to convert the attributes from the [configuration file](./config.py) to an [HTML file](./docs/index.html). And this html file can be added directly to your github resporitories alongside with all your codes, and can be compiled into a webpage related to your paper!
+Based on the format from [pix2pix](phillipi.github.io/pix2pix/), paper-page used a python file to convert the attributes from the [configuration file](./config.py) to an [HTML file](./docs/index.html). This HTML file can be compiled into a webpage related to your paper!
 
 Dependencies:
 ```
 pip install pandas bs4 easydict
 ```
 
-## Step 1. Create a HTML file
-1. Clone this resporitory in your pc by
+## Step 1. Create an HTML file
+1. Clone this repository on your pc by
 ```
 git clone https://github.com/XiaodanXing/paper-page.git
 ```
 
-2. Edit the [configuration file](./config.py). Editable attributes include title, abstract, method and results. Please do not try to delete any major attributes. However, you can delete the number of items shown in your result section. You can also add new items by creating indexed results attributes.
+2. Edit the [configuration file](./config.py). Editable attributes include title, abstract, method, and results. Please do not try to delete any major attributes. However, you can delete the number of items in your result section. You can also add new items by creating indexed results attributes.
 ```
 __C.results.item5 = {}
 __C.results.item5.title = 'Item 5'
@@ -29,14 +29,14 @@ __C.results.item5.type = 'figure'
 ```
 python main.py
 ```
-Then, you will find your HTML file in the docs folder, as well as all your images attached to the HTML. 
+Then, you will find your HTML file in the docs folder and all your images attached to the HTML. 
 
 
-## Step 2. Generate a GitHub Page for your resporitory
-1. Upload the docs folder directly into your resporitory.
+## Step 2. Generate a GitHub Page for your repository
+1. Upload the docs folder directly into your repository.
 
 
-2. Enable your page compiling in the setting of your resporitory.
+2. Enable your page compiling in the setting of your repository.
 ![image](https://user-images.githubusercontent.com/30890745/175132576-762e9242-6066-45cd-ba2b-24271c688d09.png)
 
 3. Select the docs folder as the folder for your page contents.
@@ -50,7 +50,9 @@ Then, you will find your HTML file in the docs folder, as well as all your image
 
 Excel formatting
 
-## Why should I use paper-page not Markdown?
+## Why should I use paper-page, not Markdown?
 
 [HTML vs Markdown](https://developers.google.com/style/markdown)
+
+
 
