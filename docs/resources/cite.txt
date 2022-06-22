@@ -1,0 +1,17 @@
+@misc{CS22022,
+  doi = {10.48550/ARXIV.2206.06947},
+
+  url = {https://arxiv.org/abs/2206.06947},
+
+  author = {Xiaodan Xing, Jiahao Huang, Yang Nan, Yinzhe Wu, Chenjia Wang, Zhifan Gao, Simon Walsh and Guang Yang},
+
+  keywords = {Generative Model, Semi-supervised Segmentation, Data Augmentation},
+
+  title = {CS2: A Controllable and Simultaneous Synthesizer of Images and Annotations with Minimal Human Intervention},
+
+  publisher = {arXiv},
+
+  year = {2022},
+
+  copyright = {Creative Commons Attribution 4.0 International}
+}
